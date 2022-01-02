@@ -18,7 +18,7 @@ body {
   bottom: 40%;
   font-size: 1.8vw;
 }
-p
+p, .Programming_languages
 {
     color:rgb(255, 255, 255);
     animation-name: example;
@@ -35,6 +35,15 @@ p
   position: absolute;
   right: 92%;
   font-size: 3vw; 
+}
+#progress31{
+  position: absolute;
+  top: 90%;
+}
+.Programming_languages{
+  position: absolute;
+  top: -400%;
+  font-size: 3vw;
 }
 @keyframes example {
     0%   {color:rgb(255, 0, 0);}
