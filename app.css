@@ -1,5 +1,6 @@
 body {
   background-image: url("https://www.teahub.io/photos/full/180-1801553_user-uploaded-image-panda-eyes-teminite.jpg");
+  /* background-repeat: no-repeat; */
   background-size: 100%;
   justify-content: right;
   background-position: right top;
@@ -17,29 +18,23 @@ body {
   bottom: 40%;
   font-size: 1.8vw;
 }
-h1, h2, h3, h4, h5, h6, p
+p
 {
     color:rgb(255, 255, 255);
     animation-name: example;
     animation-duration: 10s;
     animation-iteration-count: infinite;
-    text-shadow: 2px 2px 3px black, 0 0 25px blue, 0 0 5px rgb(0, 4, 255);
+    text-shadow: 4px 4px 5px rgb(0, 0, 0), 0 0 25px rgb(0, 231, 231), 0 0 5px rgb(0, 0, 0);
 }
-#email {
+#email{
   position: absolute;
-  top: -10px;
-  right: 10px;
-  z-index: 1;
-  font-size: 3vw;
-  background-color: transparent;
+  right: 3%;
+  font-size: 3vw; 
 }
-
-#phone {
+#phone{
   position: absolute;
-  top: -10px;
-  left: 10px;
-  z-index: 1;
-  font-size: 3vw;
+  right: 92%;
+  font-size: 3vw; 
 }
 @keyframes example {
     0%   {color:rgb(255, 0, 0);}
