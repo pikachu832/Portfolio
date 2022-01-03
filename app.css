@@ -42,7 +42,7 @@ p, .Programming_languages
 }
 .Programming_languages{
   position: absolute;
-  top: -400%;
+  top: -420%;
   font-size: 3vw;
 }
 @keyframes example {
