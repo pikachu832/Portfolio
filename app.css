@@ -17,13 +17,14 @@ P{
 }
 .icon1 {
   font-size: 40px;
-  margin-top: 10%;
+  margin-top: 3%;
   text-align: center;
 }
 #picture_wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin-top: 5%;
+}
+#picture_wrapper{
+  background-color: crimson;
 }
 @keyframes example {
     0%   {color:rgb(255, 0, 0);}
