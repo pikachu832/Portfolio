@@ -22,9 +22,7 @@ P{
 }
 #picture_wrapper {
   margin-top: 5%;
-}
-#picture_wrapper{
-  background-color: crimson;
+  margin-left: 9.2%;
 }
 @keyframes example {
     0%   {color:rgb(255, 0, 0);}
