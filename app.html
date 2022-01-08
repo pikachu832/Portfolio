@@ -10,18 +10,20 @@
 </head>
 
 <body>
-  <div>
-    <div id = "email">
-      <a href="mailto:natanlior90@gmail.com">&#128231;</a> 
+  <div class="container-fluid">
+    <div class="row">
+    <div id = "email" class = "col-1 icon1">
+      <a href="tel:05232458583"><i class="fas fa-phone"></i></a> 
     </div>
-    <div id = "phone">
-      <a href="tel:05232458583"><i class="fa fa-phone" aria-hidden="true"></i></a> 
+    <div class = "col-10">
+    </div>
+    <div id = "phone" class = "col-1">
+      <a href="mailto:natanlior90@gmail.com"><i class="far fa-envelope icon1"></i></a> 
+    </div>
     </div>
 </div>
-  <div class="container">
-    <div class="row">
-      <div id="txts" class="col">
-        <p>
+  <div class="container-fluid" class="row" id="txts">    
+      <div  class="col-5 icon1">
           <span id = "title">!ברוכים הבאים לפורטפוליו שלי</span>
           <br>
           <span>
@@ -33,10 +35,9 @@
               <br>
               <a href = "https://github.com/pikachu832"><button type="button" class="btn btn-outline-danger">לענן שלי</button></a>
           </span>
-      </p>
       </div>
-      <div class="col img-fluid">
-        <div class="col-xl-6" id = "picture_wrapper">
+
+        <div class="col-6" id = "picture_wrapper">
           <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -64,27 +65,31 @@
             </button>
           </div>
         </div>
-      </div>
-    </div>
   </div>
-  <div id = "progress31"  class="container-fluid">
+  <div id = "progress31"  class="container-fluid icon1">
     <div class="row">
       <div class="col order-last">
         <span class="Programming_languages"> css 40%</span>
         <div class="progress">
-          <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%"></div>
+          <div class="progress-bar progress-bar-striped progress-bar-animated aapp" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%"></div>
         </div>
       </div>
       <div class="col">
-        <span class="Programming_languages"> mtml 60% </span>
+        <span class="Programming_languages"> html 60% </span>
         <div class="progress">
-          <div class="progress-bar progress-bar-striped progress-bar-animated progress-bar progress-bar-striped bg-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%"></div>
+          <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%"></div>
+        </div>
+      </div>
+      <div class="col order-first">
+        <span class="Programming_languages">  python 20% </span>
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%"></div>
         </div>
       </div>
       <div class="col order-first">
         <span class="Programming_languages"> js 30% </span>
         <div class="progress">
-          <div class="progress-bar progress-bar-striped progress-bar-animated progress-bar progress-bar-striped bg-warning" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%"></div>
+          <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%"></div>
         </div>
       </div>
     </div>

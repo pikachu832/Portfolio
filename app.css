@@ -1,49 +1,28 @@
 body {
-  background-image: url("https://www.teahub.io/photos/full/180-1801553_user-uploaded-image-panda-eyes-teminite.jpg");
-  /* background-repeat: no-repeat; */
+  /* background-image: url("https://www.teahub.io/photos/full/180-1801553_user-uploaded-image-panda-eyes-teminite.jpg"); */
+  background-repeat: no-repeat;
   background-size: 100%;
-  justify-content: right;
   background-position: right top;
-  background-attachment: fixed;
 }
-#picture_wrapper{
-  position: absolute;
-  bottom: 20%;
-  right: 0%;
+
+#txts {
+  display: flex;
 }
-#txts{
-  position: absolute;
+P{
+  /* color: rgb(255, 255, 255); 
+  text-shadow: 100px 100px 200px rgb(0, 0, 0), 0 0 30px rgb(0, 0, 0), 0 0 50px rgb(0, 0, 0); */
+  animation-name: example;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+.icon1 {
+  font-size: 40px;
+  margin-top: 3%;
   text-align: center;
-  right: 25%;
-  bottom: 40%;
-  font-size: 1.8vw;
 }
-p, .Programming_languages
-{
-    color:rgb(255, 255, 255);
-    animation-name: example;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
-    text-shadow: 4px 4px 5px rgb(0, 0, 0), 0 0 25px rgb(0, 231, 231), 0 0 5px rgb(0, 0, 0);
-}
-#email{
-  position: absolute;
-  right: 3%;
-  font-size: 3vw; 
-}
-#phone{
-  position: absolute;
-  right: 92%;
-  font-size: 3vw; 
-}
-#progress31{
-  position: absolute;
-  top: 90%;
-}
-.Programming_languages{
-  position: absolute;
-  top: -420%;
-  font-size: 3vw;
+#picture_wrapper {
+  margin-top: 5%;
+  margin-left: 9.2%;
 }
 @keyframes example {
     0%   {color:rgb(255, 0, 0);}
