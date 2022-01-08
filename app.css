@@ -1,30 +1,35 @@
 body {
-  /* background-image: url("https://www.teahub.io/photos/full/180-1801553_user-uploaded-image-panda-eyes-teminite.jpg"); */
+  /* background-image: url("https://www.teahub.io/photos/full/180-1801553_user-uploaded-image-panda-eyes-teminite.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
-  background-position: right top;
+  background-position: right top; */
+  background-color: black;
 }
-
 #txts {
   display: flex;
 }
-P{
-  /* color: rgb(255, 255, 255); 
-  text-shadow: 100px 100px 200px rgb(0, 0, 0), 0 0 30px rgb(0, 0, 0), 0 0 50px rgb(0, 0, 0); */
-  animation-name: example;
-  animation-duration: 10s;
-  animation-iteration-count: infinite;
-}
 .icon1 {
+  font-size: 40px;
+  margin-top: 5%;
+  text-align: center;
+}
+.icon2 {
   font-size: 40px;
   margin-top: 3%;
   text-align: center;
 }
 #picture_wrapper {
   margin-top: 5%;
-  margin-left: 9.2%;
+  margin-left: 5%;
 }
-@keyframes example {
+/* P{
+  color: rgb(255, 255, 255); 
+  text-shadow: 100px 100px 200px rgb(0, 0, 0), 0 0 30px rgb(0, 0, 0), 0 0 50px rgb(0, 0, 0);
+  animation-name: example;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+} */
+/* @keyframes example {
     0%   {color:rgb(255, 0, 0);}
     7.1%  {color:rgb(255, 72, 0);}
     14.1%  {color:rgb(255, 187, 0);}
@@ -39,4 +44,4 @@ P{
     77.1%  {color:rgb(255, 0, 179);}
     84.1%  {color:rgb(255, 0, 85);}
     100%  {color:rgb(255, 0, 0);}
-  }
+  } */
