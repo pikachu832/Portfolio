@@ -12,4 +12,4 @@ links.onclick = function() {
         document.getElementsByClassName("row")[1].style.color ='#000000';
         first_click = true;
     }
-} 
+}
