@@ -1,0 +1,108 @@
+/* body {
+  background-image: url("https://www.teahub.io/photos/full/180-1801553_user-uploaded-image-panda-eyes-teminite.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: right top;
+} */
+body{
+    background-color: #ffffff;
+  }
+  #txts {
+    display: flex;
+  }
+  .icon1 {
+    font-size: 40px;
+    margin-top: 5%;
+    text-align: center;
+    
+  }
+  .icon2 {
+    font-size: 40px;
+    margin-top: 3%;
+    text-align: center;
+  }
+  #picture_wrapper {
+    margin-top: 5%;
+    margin-left: 5%;
+  }
+  #clarity{
+    color: #0d3da7;
+  }
+  
+
+
+
+  .dropbtn {
+    color: #0d3da7;
+    font-size: 40px;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #1c0646;
+    min-width: 10px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  }
+  
+  .dropdown-content a {
+    color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #363232}
+  
+  .show {display:block;}
+
+  .dropb421 {
+    color: #0d3da7;
+    font-size: 40px;
+  }
+  
+  .dropdown-conte421 {
+    display: none;
+    position: absolute;
+    background-color: #1c0646;
+    min-width: 10px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  }
+  
+  .dropdown-conte421 a {
+    color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .dropdown-conten421t a:hover {background-color: #363232}
+  
+  .sh421 {display: inline-block;}
+
+  /* span{
+    color: rgb(255, 255, 255); 
+    text-shadow: 100px 100px 200px rgb(0, 0, 0), 0 0 30px rgb(0, 0, 0), 0 0 50px rgb(0, 0, 0);
+    animation-name: example;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes example {
+      0%   {color:rgb(255, 0, 0);}
+      7.1%  {color:rgb(255, 72, 0);}
+      14.1%  {color:rgb(255, 187, 0);}
+      21.1%  {color:rgb(255, 251, 0);}
+      28.1% {color:rgb(136, 255, 0);}
+      35.1%   {color:rgb(0, 255, 98);}
+      42.1%  {color:rgb(0, 255, 200);}
+      49.1%  {color:rgb(0, 140, 255);}
+      56.1%  {color:rgb(0, 89, 255);}
+      63.1% {color:rgb(174, 0, 255);}
+      70.1%   {color:rgb(195, 0, 255);}
+      77.1%  {color:rgb(255, 0, 179);}
+      84.1%  {color:rgb(255, 0, 85);}
+      100%  {color:rgb(255, 0, 0);}
+    } */
