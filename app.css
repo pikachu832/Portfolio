@@ -5,7 +5,7 @@
   background-position: right top;
 } */
 body{
-  background-color: rgb(255, 255, 255);
+  background-color: #ffffff;
 }
 #txts {
   display: flex;
@@ -24,6 +24,9 @@ body{
 #picture_wrapper {
   margin-top: 5%;
   margin-left: 5%;
+}
+#clarity{
+  color: #0d3da7;
 }
 /* P{
   color: rgb(255, 255, 255); 
