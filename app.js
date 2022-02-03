@@ -14,7 +14,8 @@ links.onclick = function() {
     }
 }
 
-document.getElementById("myBtn").onclick = function() {myFunction()};
+document.getElementById("myBtn").onmouseover = function() {myFunction()};
+document.getElementById("myBtn").onmouseout = function() {myFunction()};
 
 function myFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
